@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/business-card-site/static/css/main.e8cbe395.chunk.css",
+    "main.js": "/business-card-site/static/js/main.ea2612be.chunk.js",
+    "main.js.map": "/business-card-site/static/js/main.ea2612be.chunk.js.map",
+    "runtime-main.js": "/business-card-site/static/js/runtime-main.8fc9292f.js",
+    "runtime-main.js.map": "/business-card-site/static/js/runtime-main.8fc9292f.js.map",
+    "static/js/2.a3df2161.chunk.js": "/business-card-site/static/js/2.a3df2161.chunk.js",
+    "static/js/2.a3df2161.chunk.js.map": "/business-card-site/static/js/2.a3df2161.chunk.js.map",
+    "static/js/3.33e1b4e4.chunk.js": "/business-card-site/static/js/3.33e1b4e4.chunk.js",
+    "static/js/3.33e1b4e4.chunk.js.map": "/business-card-site/static/js/3.33e1b4e4.chunk.js.map",
+    "index.html": "/business-card-site/index.html",
+    "static/css/main.e8cbe395.chunk.css.map": "/business-card-site/static/css/main.e8cbe395.chunk.css.map",
+    "static/js/2.a3df2161.chunk.js.LICENSE.txt": "/business-card-site/static/js/2.a3df2161.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/business-card-site/static/media/united.f6b7b873.svg",
+    "static/media/DSC05664.69c31641.jpg": "/business-card-site/static/media/DSC05664.69c31641.jpg",
+    "static/media/army.4886b539.jpg": "/business-card-site/static/media/army.4886b539.jpg",
+    "static/media/Main.css": "/business-card-site/static/media/doroga_razmetka_gorizont_180305_3413x5120.c7dd4fd6.jpg",
+    "static/media/elbrus.c53afdc0.jpeg": "/business-card-site/static/media/elbrus.c53afdc0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fc9292f.js",
+    "static/js/2.a3df2161.chunk.js",
+    "static/css/main.e8cbe395.chunk.css",
+    "static/js/main.ea2612be.chunk.js"
+  ]
+}
