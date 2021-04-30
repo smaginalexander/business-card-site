@@ -1,0 +1,71 @@
+@keyframes move {
+    0% {
+        background-position: 50% 90%;
+    }
+    50% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 90%;
+    }
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/doroga_razmetka_gorizont_180305_3413x5120.jpg");
+    background-repeat: no-repeat;
+    animation: move 220s infinite;
+    background-size: cover;
+}
+
+.main__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__text {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background: rgba(5, 5, 5, 0.486);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.main__link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    width: 300px;
+    height: 65px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    background: transparent;
+    transition: background 0.3s;
+}
+
+.main__link > span {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+.main__link:hover {
+    background: rgb(201, 23, 0);
+}
+.main__link:hover > span {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,52 @@
+.projects {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+    height: 100vh;
+    width: 100%;
+    background: rgb(32 51 68);
+}
+
+.projects__nav-section {
+    border-right: 1px solid white;
+    padding-right: 30px;
+    width: 30%;
+}
+
+.projects__list {
+    list-style-type: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 200px;
+}
+
+.projects__section {
+    padding-left: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 37px 24px;
+}
+
+.normal {
+    border-radius: 10px;
+    line-height: 40px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 0px rgb(0 0 0);
+    text-align: center;
+}
+
+.normal.active {
+    box-shadow: inset 0px 0px 7px 0px rgb(0 0 0);
+    background: rgb(32 51 68);
+    color: white;
+}

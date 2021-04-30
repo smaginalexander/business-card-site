@@ -1,0 +1,67 @@
+.skilz {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+    height: 100vh;
+    width: 100%;
+    background: rgb(32 51 68);
+}
+
+.skilz__api {
+    width: 45%;
+}
+
+.skilz__api-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skilz__text {
+    color: white;
+    font-size: 24px;
+}
+
+.skilz__api-button {
+    border: none;
+    outline: none;
+    cursor: url("../../images/free-icon-microphone-860171.png") 24 24, auto;
+    width: 200px;
+    height: 150px;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-image: url("../../images/kanye.jpg");
+    transform: scale(1, 1);
+    transition: all 0.3s;
+}
+
+.skilz__api-button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.skilz__quote {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    width: 60%;
+}
+
+.skilz__card {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    transform: scale(1, 1);
+    transition: all 0.3s;
+}
+
+.skilz__card:hover {
+    transform: scale(1.1, 1.1);
+}
